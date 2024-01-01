@@ -54,3 +54,18 @@
 #num{
     font-weight: 700;
 }
+
+@media (max-width: 480px) {
+    .body {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }
+}
